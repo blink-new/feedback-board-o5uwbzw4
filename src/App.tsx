@@ -6,8 +6,8 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { PlusCircle, MessageSquare, ArrowBigUp, ArrowBigDown } from 'lucide-react';
-import FeedbackCard from '@/components/FeedbackCard';
-import AddFeedbackModal from '@/components/AddFeedbackModal';
+import FeedbackCard from '@/components/FeedbackCard.tsx';
+import AddFeedbackModal from '@/components/AddFeedbackModal.tsx';
 
 export interface FeedbackItem {
   id: string;
